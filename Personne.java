@@ -2,7 +2,7 @@ package org.example.PreparationExamen.Ferry;
 
 import lombok.*;
 
-import java.util.Date;
+import java.time.LocalDate;
 @Getter
 @Setter
 @AllArgsConstructor
@@ -11,7 +11,7 @@ import java.util.Date;
 public abstract class Personne {
     private String nom;
     private String prenom;
-    private Date date_de_naissance;
+    private LocalDate date_de_naissance;
     private String adresse;
     private double poids ;
 
